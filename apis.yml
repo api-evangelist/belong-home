@@ -1,8 +1,18 @@
 aid: belong-home
 name: Belong Home
-description: Belong Home is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Belong is a residential property management platform and rental marketplace
+  that helps homeowners rent out their homes and helps residents find and live
+  in professionally managed homes. Marketed as "Property Management Made
+  Loveable," Belong pairs AI-driven pricing and operations with a human care
+  team to deliver guaranteed rent, resident screening and placement, listing
+  distribution across 26+ sites (Zillow, Apartments.com, and more), 24/7
+  maintenance via a network of Pros, rent collection, and financial tools for
+  both homeowners and renters. The company operates across a growing set of US
+  markets including the SF Bay Area, Seattle, Arizona, Florida, and the East
+  Coast, and is a portfolio company of Battery Ventures. Belong is a consumer
+  and homeowner-facing product; no public developer API, SDK, or machine
+  documentation surface has been identified at this time.
 url: https://raw.githubusercontent.com/api-evangelist/belong-home/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,55 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://s3-us-west-2.amazonaws.com/belong-web-assets/og-image.png
 tags:
 - Company
+- Property Management
+- Real Estate
+- Rental Marketplace
+- PropTech
+- Residential
+- Homeowners
+- Rent
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/belong-home-domain-security.yml
+- type: Website
+  url: https://www.belonghome.com
+- type: Blog
+  url: https://www.belonghome.com/blog
+- type: Support
+  url: https://www.belonghome.com/support
+- type: Pricing
+  url: https://www.belonghome.com/faq
+- type: TermsOfService
+  url: https://www.belonghome.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.belonghome.com/privacy-policy
+- type: LLMsTxt
+  url: llms/belong-home-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
