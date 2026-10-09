@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.belonghome.com
   final_host: belonghome.com
-  ownership: inherited
+  ownership: own
   owner: belong-home
   shares_host_with: null
-  inherited_from: belonghome.com
+  inherited_from: null
+  alias_of: belonghome.com
   verdict: scored
-  score: null
+  score: 6
+  band: 4
+  band_label: moderate
   host_score: 6
-  density: null
+  density: 2.26
   words: 2657
   tiers:
     agentic: 3
